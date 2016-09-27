@@ -32,7 +32,7 @@ export default class Display extends Component {
 
   render() {
     return (
-      <div>
+      <div className="input">
         <h3>{this.state.currentInput}</h3>
       </div>
     )
